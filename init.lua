@@ -24,6 +24,8 @@ require("astronvim.utils").conditional_func(astronvim.user_opts("polish", nil, f
 vim.api.nvim_create_autocmd({ "InsertLeave" }, {
   callback = function()
     vim.fn.execute("silent! write")
-    -- vim.notify("Autosaved!", vim.log.levels.INFO, {})
   end,
 })
+
+vim.cmd("noremap <space>rd :RustLsp debuggables ")
+vim.cmd("noremap <space>rt :RustLsp testables ")
