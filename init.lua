@@ -27,5 +27,5 @@ vim.api.nvim_create_autocmd({ "InsertLeave" }, {
   end,
 })
 
-vim.cmd("noremap <space>rd :RustLsp debuggables ")
-vim.cmd("noremap <space>rt :RustLsp testables ")
+vim.cmd("noremap <leader>rd :RustLsp debuggables ")
+vim.cmd("noremap <leader>rt :RustLsp testables ")
