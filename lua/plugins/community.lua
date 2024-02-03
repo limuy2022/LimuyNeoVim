@@ -5,5 +5,6 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.pack.python" },
-  { import = "astrocommunity.pack.cpp" }
+  { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.pack.rust"}
 }
