@@ -6,5 +6,5 @@ return {
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.cpp" },
-  { import = "astrocommunity.pack.rust"}
+  { import = "astrocommunity.pack.rust",},
 }
