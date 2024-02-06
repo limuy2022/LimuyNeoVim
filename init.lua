@@ -27,8 +27,8 @@ vim.api.nvim_create_autocmd({ "InsertLeave" }, {
   end,
 })
 
-vim.cmd("noremap <leader>rd :RustLsp debuggables ")
-vim.cmd("noremap <leader>rt :RustLsp testables ")
+vim.cmd("noremap <leader>rd :RustDebuggables ")
+vim.cmd("noremap <leader>rt :RustRunnables ")
 if vim.g.neovide then
     vim.o.guifont = "JetBrainsMono Nerd Font:h10"
 end
