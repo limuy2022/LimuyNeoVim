@@ -7,6 +7,7 @@ return {
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.rust"},
+  { import = "astrocommunity.pack.markdown"},
   {
     "simrat39/rust-tools.nvim",
     lsp = {
