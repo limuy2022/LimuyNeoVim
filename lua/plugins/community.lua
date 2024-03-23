@@ -8,6 +8,7 @@ return {
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.rust"},
   { import = "astrocommunity.pack.markdown"},
+  { import = "astrocommunity.lsp.lsp-inlayhints-nvim" },
   {
     "simrat39/rust-tools.nvim",
     lsp = {
