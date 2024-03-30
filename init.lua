@@ -32,3 +32,11 @@ vim.cmd("noremap <leader>rt :RustRunnables ")
 if vim.g.neovide then
     vim.o.guifont = "JetBrainsMono Nerd Font:h10"
 end
+
+return {
+  lsp = {
+    servers = {
+      "clangd"
+    }
+  }
+}
