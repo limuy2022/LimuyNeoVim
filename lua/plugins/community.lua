@@ -9,6 +9,7 @@ return {
   { import = "astrocommunity.pack.rust"},
   { import = "astrocommunity.pack.markdown"},
   { import = "astrocommunity.lsp.lsp-inlayhints-nvim" },
+  { import = "astrocommunity.colorscheme.vscode-nvim" },
   {
     "simrat39/rust-tools.nvim",
     lsp = {
