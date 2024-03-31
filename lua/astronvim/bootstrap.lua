@@ -130,6 +130,3 @@ astronvim.user_terminals = {}
 astronvim.lsp = { skip_setup = astronvim.user_opts("lsp.skip_setup", {}), progress = {} }
 --- the default colorscheme to apply on startup
 astronvim.default_colorscheme = astronvim.user_opts("colorscheme", "astrotheme", false)
--- astronvim.default_colorscheme = "catppuccin"
--- astronvim.default_colorscheme = "tokyonight"
-astronvim.default_colorscheme = "vscode"
