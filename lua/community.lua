@@ -1,3 +1,8 @@
+-- AstroCommunity: import any community modules here
+-- We import this file in `lazy_setup.lua` before the `plugins/` folder.
+-- This guarantees that the specs are processed before any user plugins.
+
+---@type LazySpec
 return {
   -- Add the community repository of plugin specifications
   "AstroNvim/astrocommunity",
@@ -6,24 +11,8 @@ return {
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.rust"},
+  { import = "astrocommunity.pack.cpp"},
   { import = "astrocommunity.pack.markdown"},
   { import = "astrocommunity.lsp.lsp-inlayhints-nvim" },
-  { import = "astrocommunity.colorscheme.vscode-nvim" },
-  {
-    "simrat39/rust-tools.nvim",
-    lsp = {
-      config = {
-        rust_analyzer = {
-          settings = {
-            -- Add clippy lints for Rust.
-            checkOnSave = {
-              allFeatures = true,
-              command = "clippy",
-              extraArgs = { "--no-deps" },
-            },
-          },
-        },
-      },
-    },
-  },
+  { import = "astrocommunity.colorscheme.catppuccin" }
 }
