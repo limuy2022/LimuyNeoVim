@@ -10,9 +10,11 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.pack.python" },
-  { import = "astrocommunity.pack.rust"},
-  { import = "astrocommunity.pack.cpp"},
-  { import = "astrocommunity.pack.markdown"},
+  { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.godot" },
+  { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.lsp.lsp-inlayhints-nvim" },
-  { import = "astrocommunity.colorscheme.catppuccin" }
+  { import = "astrocommunity.colorscheme.catppuccin" },
 }

@@ -44,6 +44,18 @@ return {
     ---@diagnostic disable: missing-fields
     config = {
       clangd = { capabilities = { offsetEncoding = "utf-8" } },
+      rust_analyzer = {
+        settings = {
+          -- Add clippy lints for Rust.
+          ["rust-analyzer"] = {
+            checkOnSave = {
+              allFeatures = true,
+              command = "clippy",
+              extraArgs = { "--no-deps" },
+            },
+          },
+        },
+      },
     },
     -- customize how language servers are attached
     handlers = {

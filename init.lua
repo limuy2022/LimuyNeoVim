@@ -17,14 +17,17 @@ end
 
 require "lazy_setup"
 require "polish"
-vim.api.nvim_create_autocmd({ "InsertLeave" }, {
-  callback = function()
-    vim.fn.execute("silent! write")
-  end,
-})
-
-vim.cmd("noremap <leader>rd :RustDebuggables ")
-vim.cmd("noremap <leader>rt :RustRunnables ")
+-- vim.api.nvim_create_autocmd({ "InsertLeave" }, {
+--   callback = function()
+--     vim.fn.execute("silent! write")
+--   end,
+-- })
+--
+vim.cmd "noremap <leader>rd :RustLsp debuggables "
+vim.cmd "noremap <leader>rt :RustLsp runnables "
+vim.cmd "noremap <leader>rr :RustLsp renderDiagnostic "
 if vim.g.neovide then
-    vim.o.guifont = "JetBrainsMono Nerd Font:h10"
+  vim.g.neovide_transparency = 0.8
+  vim.o.guifont = "JetBrainsMono Nerd Font:h10"
+  vim.g.neovide_cursor_vfx_mode = "sonicboom"
 end
