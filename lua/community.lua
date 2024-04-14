@@ -16,5 +16,6 @@ return {
   { import = "astrocommunity.pack.godot" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.lsp.lsp-inlayhints-nvim" },
-  { import = "astrocommunity.colorscheme.catppuccin" },
+  -- { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.colorscheme.everforest" },
 }
