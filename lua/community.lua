@@ -18,4 +18,5 @@ return {
   { import = "astrocommunity.lsp.lsp-inlayhints-nvim" },
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.everforest" },
+  { import = "astrocommunity.project.project-nvim" },
 }

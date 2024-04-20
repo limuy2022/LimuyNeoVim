@@ -30,6 +30,7 @@ vim.cmd "noremap <leader>rd :RustLsp debuggables "
 vim.cmd "noremap <leader>rt :RustLsp runnables "
 vim.cmd "noremap <leader>rr :RustLsp renderDiagnostic<Enter>"
 vim.cmd "noremap <leader>mp :MarkdownPreview<Enter>"
+vim.cmd "noremap <leader>pm :Telescope projects<Enter>"
 if vim.g.neovide then
   vim.g.neovide_transparency = 0.8
   vim.o.guifont = "JetBrainsMono Nerd Font:h10"
