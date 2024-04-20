@@ -28,7 +28,7 @@ require "polish"
 --
 vim.cmd "noremap <leader>rd :RustLsp debuggables "
 vim.cmd "noremap <leader>rt :RustLsp runnables "
-vim.cmd "noremap <leader>rr :RustLsp renderDiagnostic "
+vim.cmd "noremap <leader>rr :RustLsp renderDiagnostic<Enter>"
 vim.cmd "noremap <leader>mp :MarkdownPreview<Enter>"
 if vim.g.neovide then
   vim.g.neovide_transparency = 0.8
