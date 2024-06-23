@@ -54,6 +54,11 @@ return {
               command = "clippy",
               extraArgs = { "--no-deps" },
             },
+            cargo = {
+              buildScripts = {
+                enable = true, -- 启用构建脚本分析
+              },
+            },
           },
         },
       },
