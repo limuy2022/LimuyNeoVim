@@ -48,16 +48,16 @@ return {
         settings = {
           -- Add clippy lints for Rust.
           ["rust-analyzer"] = {
-            -- checkOnSave = {
-            --   allFeatures = true,
-            --   command = "clippy",
-            --   extraArgs = { "--no-deps" },
-            -- },
-            -- cargo = {
-            --   buildScripts = {
-            --     enable = true, -- 启用构建脚本分析
-            --   },
-            -- },
+            check = {
+              allFeatures = true,
+              command = "clippy",
+              extraArgs = { "--no-deps" },
+            },
+            cargo = {
+              buildScripts = {
+                enable = true, -- 启用构建脚本分析
+              },
+            },
           },
         },
       },
