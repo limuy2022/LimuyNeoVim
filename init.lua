@@ -12,7 +12,7 @@ vim.opt.rtp:prepend(lazypath)
 if not pcall(require, "lazy") then
   -- stylua: ignore
   vim.api.nvim_echo(
-  { { ("Unable to load lazy from: %s\n"):format(lazypath), "ErrorMsg" }, { "Press any key to exit...", "MoreMsg" } },
+    { { ("Unable to load lazy from: %s\n"):format(lazypath), "ErrorMsg" }, { "Press any key to exit...", "MoreMsg" } },
     true, {})
   vim.fn.getchar()
   vim.cmd.quit()
@@ -32,7 +32,7 @@ vim.cmd "noremap <leader>rr :RustLsp renderDiagnostic<Enter>"
 vim.cmd "noremap <leader>rp :RustLsp rebuildProcMacros<Enter>"
 vim.cmd "noremap <leader>mp :MarkdownPreview<Enter>"
 vim.cmd "noremap <leader>pm :Telescope projects<Enter>"
-vim.cmd "noremap <leader>rt :ToggleTerm<Enter>"
+vim.cmd "noremap <leader>tt :ToggleTerm<Enter>"
 if vim.g.neovide then
   vim.g.neovide_transparency = 0.8
   vim.o.guifont = "JetBrainsMono Nerd Font:h10"
