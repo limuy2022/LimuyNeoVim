@@ -58,7 +58,7 @@ return {
             -- },
             cargo = {
               buildScripts = {
-                enable = true, -- 启用构建脚本分析
+                -- enable = true, -- 启用构建脚本分析
               },
             },
           },
