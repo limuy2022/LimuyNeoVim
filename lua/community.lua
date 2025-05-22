@@ -16,11 +16,11 @@ return {
   { import = "astrocommunity.pack.godot" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.html-css" },
-  { import = "astrocommunity.lsp.lsp-inlayhints-nvim" },
+  -- { import = "astrocommunity.lsp.lsp-inlayhints-nvim" },
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.colorscheme.everforest" },
   { import = "astrocommunity.colorscheme.hybrid-nvim" },
   { import = "astrocommunity.project.project-nvim" },
   -- { import = "astrocommunity.diagnostics.error-lens-nvim" },
-  { import = "astrocommunity.completion.codeium-vim" },
+  -- { import = "astrocommunity.completion.codeium-vim" },
 }
