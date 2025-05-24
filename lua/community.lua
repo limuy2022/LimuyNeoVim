@@ -22,5 +22,5 @@ return {
   { import = "astrocommunity.colorscheme.hybrid-nvim" },
   { import = "astrocommunity.project.project-nvim" },
   -- { import = "astrocommunity.diagnostics.error-lens-nvim" },
-  -- { import = "astrocommunity.completion.codeium-vim" },
+  { import = "astrocommunity.completion.codeium-nvim" },
 }
